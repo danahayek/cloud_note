@@ -2,25 +2,18 @@ package com.example.cloudnoteassignment.adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.Intent;
-import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.cloudnoteassignment.EditNote;
-import com.example.cloudnoteassignment.MainActivity;
 import com.example.cloudnoteassignment.R;
-import com.example.cloudnoteassignment.ShowNote;
 import com.example.cloudnoteassignment.model.note;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class noteAdapter extends RecyclerView.Adapter<noteAdapter.ViewHolder> {
     ArrayList<note> noteArrayList;

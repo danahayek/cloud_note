@@ -54,8 +54,8 @@ public class ShowNote extends AppCompatActivity implements noteAdapter.ItemClick
 
         delete = findViewById(R.id.delete);
 
-        add=findViewById(R.id.address_edit);
-        body=findViewById(R.id.body_edit);
+        add=findViewById(R.id.update_address);
+        body=findViewById(R.id.update_body);
 
 
     }
